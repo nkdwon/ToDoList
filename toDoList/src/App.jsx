@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/Header/header'
 import './App.css'
 
 function App() {
@@ -6,14 +7,11 @@ function App() {
 
   return (
     <>
-      <h1>To Do List - Lista de Afazeres</h1>
+    <Header/>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
     </>
   )

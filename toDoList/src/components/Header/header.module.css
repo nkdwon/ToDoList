@@ -1,0 +1,15 @@
+.header {
+  height: 7rem;
+  background-color: var(--primary);
+  color: var(--white);
+
+  display: flex;
+  align-items: center;
+ 
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}

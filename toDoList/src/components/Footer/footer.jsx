@@ -5,7 +5,7 @@ function Footer(){
     return (
         <footer className={styles.Footer}>
             <h1>
-                Olá
+                Footer
             </h1>
         </footer>
     )

@@ -1,6 +1,6 @@
-import Header from '../../components/Header/Header'
+import Header from '../../components/Header/header'
 import Footer from '../../components/Footer/Footer'
-import Container from '../../components/Container/Container'
+import Container from '../../components/Container_TaskApp/TaskApp'
 import { Outlet } from 'react-router-dom'
 
 function Layout() {

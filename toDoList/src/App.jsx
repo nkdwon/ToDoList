@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import './App.css'
 import Layout from './pages/Layout/Layout'
 import Home from './pages/Home'
 import Concluido from './pages/Concluido'
@@ -8,7 +6,6 @@ import NewTask from './pages/NewTask'
 import { BrowserRouter, Routes, Route} from 'react-router-dom' 
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
     <>
       <BrowserRouter>

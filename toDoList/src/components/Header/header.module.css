@@ -1,5 +1,5 @@
 .header {
-  height: 7rem;
+  height: 10vh;
   background-color: var(--primary);
   color: var(--white);
 
@@ -8,6 +8,8 @@
   justify-content: space-around;
   flex: wrap;
 }
+
+
 
 .nav a{
   text-decoration: none;
